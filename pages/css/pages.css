@@ -209,3 +209,9 @@ input[type=text]:focus {
     color: hsla(245, 60%, 58%, 1);
     font-family: 'Montserrat', sans-serif;
 }
+
+.search {
+    background: url('../images/zoekicoon.png') no-repeat 8px 6px;
+    background-size: 8px;
+    text-align: end;
+}
