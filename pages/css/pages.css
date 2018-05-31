@@ -19,6 +19,10 @@ img {
 /* Voeg jouw css hieraan toe */
 
 
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+
 /*CSS grid*/
 
 .banaan {
@@ -97,6 +101,57 @@ img {
 }
 
 
+/* CSS offset*/
+
+.col-offset-12 {
+    margin-left: 100%;
+}
+
+.col-offset-11 {
+    margin-left: 91.666666666667%;
+}
+
+.col-offset-10 {
+    margin-left: 83.333333333333%;
+}
+
+.col-offset-9 {
+    margin-left: 75%;
+}
+
+.col-offset-8 {
+    margin-left: 66.666666666667%;
+}
+
+.col-offset-7 {
+    margin-left: 58.333333333333%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-offset-5 {
+    margin-left: 41.666666666667%;
+}
+
+.col-offset-4 {
+    margin-left: 33.333333333333%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-offset-2 {
+    margin-left: 16.666666666667%;
+}
+
+.col-offset-1 {
+    margin-left: 8.333333333333%;
+}
+
+
 /*css body*/
 
 nav ul {
@@ -137,6 +192,9 @@ footer li a {
     text-decoration: none;
 }
 
+
+/*zoekbalk*/
+
 input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -144,5 +202,10 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    width: 60%;
+    width: 80%;
+}
+
+.contactpg h1 {
+    color: hsla(245, 60%, 58%, 1);
+    font-family: 'Montserrat', sans-serif;
 }
