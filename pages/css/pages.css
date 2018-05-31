@@ -215,3 +215,23 @@ input[type=text]:focus {
     background-size: 8px;
     text-align: end;
 }
+
+#imglonden {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.tekstlonden {
+    color: hsla(245, 60%, 58%, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.kaderpaars {
+    border: solid 2px hsla(245, 60%, 58%, 1);
+}
+
+.kaderpaars p,
+.kaderpaars h1 {
+    line-height: 5px;
+}
