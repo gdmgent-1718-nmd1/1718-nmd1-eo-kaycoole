@@ -154,6 +154,21 @@ img {
 
 /*css body*/
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsla(245, 60%, 58%, 1);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 93, 240);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(136, 126, 252);
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -234,4 +249,20 @@ input[type=text]:focus {
 .kaderpaars p,
 .kaderpaars h1 {
     line-height: 5px;
+}
+
+.teksinvulvelden {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold
+}
+
+.button {
+    background-color: hsla(245, 60%, 58%, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(105, 93, 240);
 }
