@@ -185,6 +185,11 @@
         color: black;
         text-decoration: none;
     }
+    
+    .FLItitel {
+        color: rgb(206, 201, 253);
+        font-weight: bold
+    }
     /*zoekbalk*/
     
     input[type=text] {
